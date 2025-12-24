@@ -6,85 +6,55 @@
 
 **MCP сервер для создания нейрофизиологических плейлистов Spotify через ИИ**
 
-MCP server for creating neurophysiological Spotify playlists via AI
+[English](README_EN.md) | [Русский](README.md)
 
 ---
 
-## 🌟 О проекте / About
+## 🌟 О проекте
 
 Этот проект расширяет возможности [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) для работы со Spotify API, позволяя ИИ-ассистентам (Claude, ChatGPT и др.) создавать и управлять плейлистами, оптимизированными под различные когнитивные состояния мозга.
 
 **Ключевая особенность:** Автоматическое создание 6 нейрофизиологических плейлистов, каждый из которых оптимизирован для конкретного когнитивного режима работы.
 
-This project extends [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) capabilities for Spotify API, enabling AI assistants (Claude, ChatGPT, etc.) to create and manage playlists optimized for different cognitive brain states.
-
-**Key feature:** Automatic creation of 6 neurophysiological playlists, each optimized for a specific cognitive work mode.
-
 ---
 
-## 🧠 Нейрофизиологические плейлисты / Neurophysiological Playlists
+## 🧠 Нейрофизиологические плейлисты
 
 Проект создает 6 специализированных плейлистов, каждый из которых оптимизирован под определенное когнитивное состояние:
 
-The project creates 6 specialized playlists, each optimized for a specific cognitive state:
-
-### 1. 🧮 Кодинг / Глубокая логика (Coding / Deep Logic)
+### 1. 🧮 Кодинг / Глубокая логика
 **Цель:** Активация префронтальной коры (PFC) для глубокой концентрации  
 **Тип музыки:** Инструментальная, минималистичная, без отвлекающих вокалов  
 **Применение:** Программирование, решение сложных задач, аналитическая работа
 
-**Goal:** Activate prefrontal cortex (PFC) for deep concentration  
-**Music type:** Instrumental, minimalistic, without distracting vocals  
-**Use case:** Programming, solving complex problems, analytical work
-
-### 2. 📋 Админка / Рутина (Admin / Routine)
+### 2. 📋 Админка / Рутина
 **Цель:** Поддержание стабильной бодрости без перевозбуждения  
 **Тип музыки:** Спокойный фон, умеренный темп, нейтральное настроение  
 **Применение:** Обработка email, документация, рутинные задачи
 
-**Goal:** Maintain stable alertness without overstimulation  
-**Music type:** Calm background, moderate tempo, neutral mood  
-**Use case:** Email processing, documentation, routine tasks
-
-### 3. 🎨 Креатив (Creativity)
+### 3. 🎨 Креатив
 **Цель:** Активация Default Mode Network (DMN) для расширения ассоциаций  
 **Тип музыки:** Разнообразная, необычная, стимулирующая воображение  
 **Применение:** Дизайн, написание текстов, мозговые штурмы
 
-**Goal:** Activate Default Mode Network (DMN) for expanded associations  
-**Music type:** Diverse, unusual, imagination-stimulating  
-**Use case:** Design, writing, brainstorming
-
-### 4. 🛑 Остановиться / Снижение перегрева (Stop / Reduce Overheating)
+### 4. 🛑 Остановиться / Снижение перегрева
 **Цель:** Парасимпатическая активация для восстановления  
 **Тип музыки:** Медленная, успокаивающая, медитативная  
 **Применение:** Перерывы, восстановление после стресса, подготовка ко сну
 
-**Goal:** Parasympathetic activation for recovery  
-**Music type:** Slow, calming, meditative  
-**Use case:** Breaks, recovery after stress, preparing for sleep
-
-### 5. ⚡ Быстрый старт (Quick Start)
+### 5. ⚡ Быстрый старт
 **Цель:** Краткий всплеск бодрости и энергии  
 **Тип музыки:** Энергичная, мотивирующая, короткие треки  
 **Применение:** Утренний подъем, начало работы, преодоление прокрастинации
 
-**Goal:** Quick burst of alertness and energy  
-**Music type:** Energetic, motivating, short tracks  
-**Use case:** Morning boost, starting work, overcoming procrastination
-
-### 6. 📡 Радар / Метапозиция (Radar / Metaposition)
+### 6. 📡 Радар
 **Цель:** Открытое внимание, сканирование информации  
 **Тип музыки:** Атмосферная, не навязчивая, поддерживающая фокус  
 **Применение:** Изучение новых материалов, чтение, обзор информации
 
-**Goal:** Open attention, information scanning  
-**Music type:** Atmospheric, non-intrusive, focus-supporting  
-**Use case:** Learning new materials, reading, information review
-
 ---
 
-## ✨ Возможности / Features
+## ✨ Возможности
 
 - 🎵 **Управление плейлистами** - создание, редактирование, добавление треков  
 - 🔍 **Поиск музыки** - поиск треков, альбомов, артистов, плейлистов  
@@ -93,53 +63,40 @@ The project creates 6 specialized playlists, each optimized for a specific cogni
 - 📋 **Управление очередью** - добавление треков в очередь воспроизведения  
 - 🤖 **Интеграция с ИИ** - работа через MCP с Claude, ChatGPT и другими ассистентами
 
-- 🎵 **Playlist Management** - create, edit, add tracks  
-- 🔍 **Music Search** - search tracks, albums, artists, playlists  
-- 📊 **Music Information** - detailed info about tracks/albums/artists  
-- ⏯️ **Playback Control** - play, pause, skip tracks  
-- 📋 **Queue Management** - add tracks to playback queue  
-- 🤖 **AI Integration** - work via MCP with Claude, ChatGPT and other assistants
-
 ---
 
-## 🚀 Установка / Installation
+## 🚀 Установка
 
-### Требования / Requirements
+### Требования
 
 - Python 3.12+
 - [uv](https://github.com/astral-sh/uv) (менеджер пакетов)
 - Spotify Premium аккаунт
 - Cursor IDE или другой MCP-клиент
 
-- Python 3.12+
-- [uv](https://github.com/astral-sh/uv) (package manager)
-- Spotify Premium account
-- Cursor IDE or other MCP client
+### Быстрый старт
 
-### Быстрый старт / Quick Start
-
-1. **Клонируйте репозиторий / Clone the repository:**
+1. **Клонируйте репозиторий:**
    ```bash
    git clone https://github.com/FUYOH666/spotify-mcp-neuroplaylists.git
    cd spotify-mcp-neuroplaylists
    ```
 
-2. **Создайте файл с секретами / Create secrets file:**
+2. **Создайте файл с секретами:**
    ```bash
    cp .env.example .env
    ```
    
-   Заполните `.env` вашими Spotify API credentials (см. [инструкцию](#получение-spotify-api-ключей))  
-   Fill `.env` with your Spotify API credentials (see [instructions](#получение-spotify-api-ключей))
+   Заполните `.env` вашими Spotify API credentials (см. [инструкцию](#получение-spotify-api-ключей))
 
-3. **Установите зависимости / Install dependencies:**
+3. **Установите зависимости:**
    ```bash
    uv sync
    ```
 
-4. **Настройте MCP в Cursor / Configure MCP in Cursor:**
+4. **Настройте MCP в Cursor:**
    
-   Добавьте в `~/.cursor/mcp.json` / Add to `~/.cursor/mcp.json`:
+   Добавьте в `~/.cursor/mcp.json`:
    ```json
    {
      "mcpServers": {
@@ -161,13 +118,13 @@ The project creates 6 specialized playlists, each optimized for a specific cogni
    }
    ```
 
-5. **Перезапустите Cursor / Restart Cursor**
+5. **Перезапустите Cursor**
 
 Подробные инструкции: [README_SETUP.md](README_SETUP.md) | [SETUP_RU.md](SETUP_RU.md)
 
 ---
 
-## 📖 Получение Spotify API ключей / Getting Spotify API Keys
+## 📖 Получение Spotify API ключей
 
 1. Зайдите на [developer.spotify.com](https://developer.spotify.com/)
 2. Войдите в свой аккаунт Spotify (нужен **Spotify Premium**)
@@ -178,48 +135,28 @@ The project creates 6 specialized playlists, each optimized for a specific cogni
    - **Redirect URI**: `http://127.0.0.1:8080/callback` (обязательно!)
 6. Скопируйте **Client ID** и **Client Secret**
 
-1. Go to [developer.spotify.com](https://developer.spotify.com/)
-2. Sign in with your Spotify account (requires **Spotify Premium**)
-3. Go to [Dashboard](https://developer.spotify.com/dashboard)
-4. Click "Create app"
-5. Fill the form:
-   - **App name**: any name (e.g., "My AI Playlists")
-   - **Redirect URI**: `http://127.0.0.1:8080/callback` (required!)
-6. Copy **Client ID** and **Client Secret**
-
 ---
 
-## 💡 Польза автоматизации / Benefits of Automation
+## 💡 Польза автоматизации
 
-### Для разработчиков / For Developers
+### Для разработчиков
 
 - ⚡ **Экономия времени** - не нужно вручную искать и добавлять треки  
 - 🎯 **Точность подбора** - ИИ учитывает контекст задачи и когнитивное состояние  
 - 🔄 **Адаптивность** - плейлисты обновляются автоматически под текущие потребности  
 - 📈 **Продуктивность** - правильная музыка повышает эффективность работы
 
-- ⚡ **Time saving** - no need to manually search and add tracks  
-- 🎯 **Precise selection** - AI considers task context and cognitive state  
-- 🔄 **Adaptability** - playlists update automatically for current needs  
-- 📈 **Productivity** - right music increases work efficiency
-
-### Для исследователей / For Researchers
+### Для исследователей
 
 - 🧪 **Экспериментирование** - тестирование влияния музыки на когнитивные функции  
 - 📊 **Сбор данных** - автоматическое логирование использования плейлистов  
 - 🔬 **Воспроизводимость** - стандартизированные плейлисты для исследований
 
-- 🧪 **Experimentation** - testing music's impact on cognitive functions  
-- 📊 **Data collection** - automatic logging of playlist usage  
-- 🔬 **Reproducibility** - standardized playlists for research
-
 ---
 
-## 🛠️ Использование / Usage
+## 🛠️ Использование
 
 После настройки вы можете попросить ИИ создать плейлист:
-
-After setup, you can ask AI to create a playlist:
 
 ```
 "Создай плейлист 'Утренняя энергия' с энергичными треками для быстрого старта"
@@ -227,38 +164,29 @@ After setup, you can ask AI to create a playlist:
 "Создай плейлист для креативной работы с необычными треками"
 ```
 
-```
-"Create a playlist 'Morning Energy' with energetic tracks for quick start"
-"Find lo-fi hip hop tracks and add them to 'Coding' playlist"
-"Create a playlist for creative work with unusual tracks"
-```
+---
+
+## 📚 Документация
+
+- [README_EN.md](README_EN.md) - English version
+- [README_SETUP.md](README_SETUP.md) - Настройка на новом компьютере
+- [SETUP_RU.md](SETUP_RU.md) - Подробная инструкция на русском
 
 ---
 
-## 📚 Документация / Documentation
-
-- [README_SETUP.md](README_SETUP.md) - Настройка на новом компьютере / Setup on new computer
-- [SETUP_RU.md](SETUP_RU.md) - Подробная инструкция на русском / Detailed Russian instructions
-
----
-
-## 🤝 Вклад / Contributing
+## 🤝 Вклад
 
 PR приветствуются! Если у вас есть идеи по улучшению нейрофизиологических плейлистов или функциональности, создайте issue или pull request.
 
-PRs welcome! If you have ideas for improving neurophysiological playlists or functionality, create an issue or pull request.
-
 ---
 
-## 📄 Лицензия / License
+## 📄 Лицензия
 
 MIT License - см. [LICENSE](LICENSE) для деталей
 
-MIT License - see [LICENSE](LICENSE) for details
-
 ---
 
-## 🌐 Ссылки / Links
+## 🌐 Ссылки
 
 - 🌐 **Website:** [scanovich.ai](https://scanovich.ai)
 - 📦 **Repository:** [GitHub](https://github.com/FUYOH666/spotify-mcp-neuroplaylists)
@@ -267,11 +195,9 @@ MIT License - see [LICENSE](LICENSE) for details
 
 ---
 
-## 🙏 Благодарности / Acknowledgments
+## 🙏 Благодарности
 
 Основано на проекте [spotify-mcp](https://github.com/varunneal/spotify-mcp) от [@varunneal](https://github.com/varunneal)
-
-Based on [spotify-mcp](https://github.com/varunneal/spotify-mcp) project by [@varunneal](https://github.com/varunneal)
 
 ---
 
