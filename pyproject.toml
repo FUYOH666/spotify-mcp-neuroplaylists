@@ -1,7 +1,7 @@
 [project]
-name = "spotify-mcp"
+name = "spotify-mcp-neuroplaylists"
 version = "0.2.0"
-description = "MCP spotify project"
+description = "MCP server for creating neurophysiological Spotify playlists optimized for different cognitive states"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
@@ -10,8 +10,8 @@ dependencies = [
  "spotipy==2.24.0",
 ]
 [[project.authors]]
-name = "Varun Srivastava"
-email = "varun.neal@berkeley.edu"
+name = "Scanovich.ai"
+email = "info@scanovich.ai"
 
 [build-system]
 requires = [ "hatchling",]
@@ -22,7 +22,7 @@ dev = [
 ]
 
 [tool.uv.sources]
-spotify-mcp = { workspace = true }
+spotify-mcp-neuroplaylists = { workspace = true }
 
 [project.scripts]
 spotify-mcp = "spotify_mcp:main"
