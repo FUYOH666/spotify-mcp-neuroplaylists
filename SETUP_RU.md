@@ -52,7 +52,7 @@
       "command": "uv",
       "args": [
         "--directory",
-        "/Users/aleksandrmordvinov/development/spotify",
+        "/path/to/spotify-mcp-neuroplaylists",
         "run",
         "spotify-mcp"
       ],
@@ -66,7 +66,7 @@
 }
 ```
 
-3. **Важно**: Замените пути и ключи на ваши реальные значения!
+3. **Важно**: Замените `/path/to/spotify-mcp-neuroplaylists` на реальный путь к клонированному репозиторию и укажите ваши реальные API ключи!
 
 4. Перезапустите Cursor, чтобы применить изменения
 
@@ -90,8 +90,10 @@
 Для проверки можно использовать MCP Inspector:
 
 ```bash
-npx @modelcontextprotocol/inspector uv --directory /Users/aleksandrmordvinov/development/spotify run spotify-mcp
+npx @modelcontextprotocol/inspector uv --directory /path/to/spotify-mcp-neuroplaylists run spotify-mcp
 ```
+
+**Важно:** Замените `/path/to/spotify-mcp-neuroplaylists` на реальный путь к репозиторию.
 
 ## Устранение проблем
 
@@ -119,4 +121,3 @@ npx @modelcontextprotocol/inspector uv --directory /Users/aleksandrmordvinov/dev
 - `SpotifySearch` - поиск треков/альбомов/артистов/плейлистов
 - `SpotifyGetInfo` - детальная информация о треке/альбоме/артисте
 - `SpotifyPlayback` - управление воспроизведением (опционально)
-
